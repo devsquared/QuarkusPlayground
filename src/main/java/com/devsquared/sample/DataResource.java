@@ -8,9 +8,13 @@ import javax.ws.rs.core.MediaType;
 @Path("/data")
 public class DataResource {
 
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "hello";
-    }
+	// lets hook up a postgresql database and the maven dependency for that
+	// then we will add data with a simple rest endpoint
+	// then we can query for it later
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String createRandomData()
+	{
+		return null;
+	}
 }

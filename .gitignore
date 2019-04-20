@@ -1,0 +1,7 @@
+# Intellij Local stuff
+.idea/**
+*.iml
+
+# Maven Wrapper stuff
+mvnw
+mvnw.cmd
